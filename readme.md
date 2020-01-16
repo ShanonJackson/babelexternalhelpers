@@ -1,0 +1,3 @@
+- npm i
+- npm run build
+- look at /dist/index.js (babel helpers aren't required in they are included in the bundle)

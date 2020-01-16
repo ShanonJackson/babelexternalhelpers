@@ -1,10 +1,8 @@
-import css from "rollup-plugin-css-porter";
 import pkg from "./package.json";
 import resolve from "rollup-plugin-node-resolve";
 import babel from "rollup-plugin-babel";
 import path from "path";
 import commonjs from "rollup-plugin-commonjs";
-import { terser } from "rollup-plugin-terser";
 
 process.env.BABEL_ENV = "production";
 process.env.NODE_ENV = "production";
