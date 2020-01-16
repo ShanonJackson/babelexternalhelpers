@@ -1,0 +1,48 @@
+{
+		"name": "babelexternalhelpers",
+		"version": "1.0.0",
+		"description": "Reproduction to show helpers arn't \"required\"",
+		"main": "index.js",
+		"scripts": {
+				"build": "rollup -c rollup.config.js"
+		},
+		"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ShanonJackson/babelexternalhelpers.git"
+		},
+		"dependencies": {
+				"@babel/preset-env": "^7.8.3",
+				"@babel/preset-react": "^7.8.3",
+				"@babel/runtime": "^7.8.3",
+				"regenerator-runtime": "^0.13.3"
+		},
+		"devDependencies": {
+				"@babel/core": "^7.6.2",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/plugin-proposal-optional-chaining": "^7.6.0",
+				"@babel/plugin-transform-classes": "^7.5.5",
+				"@babel/plugin-transform-runtime": "^7.8.3",
+				"@babel/preset-typescript": "^7.6.0",
+				"babel-loader": "^8.0.6",
+				"babel-preset-react": "^6.24.1",
+				"rollup": "^1.26.0",
+				"rollup-plugin-babel": "^5.0.0-alpha.1",
+				"rollup-plugin-commonjs": "^10.1.0",
+				"rollup-plugin-css-porter": "^1.0.2",
+				"rollup-plugin-ignore-import": "^1.3.2",
+				"rollup-plugin-multi-input": "^1.0.3",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-terser": "^5.2.0",
+				"rollup-plugin-typescript2": "^0.24.3",
+				"typescript": "^3.7.2"
+		},
+		"keywords": [
+				"repo"
+		],
+		"author": "Shanon Jackson",
+		"license": "MIT",
+		"bugs": {
+				"url": "https://github.com/ShanonJackson/babelexternalhelpers/issues"
+		},
+		"homepage": "https://github.com/ShanonJackson/babelexternalhelpers#readme"
+}
